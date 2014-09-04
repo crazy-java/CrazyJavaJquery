@@ -7,5 +7,7 @@
 </head>
 <body>
 no zuo no die , why u try
+<div>1.缓存应用<a href="jq_cache.jsp">缓存应用</a></div>
+<div>2.页面排序<a href="jq_sort.jsp">页面排序</a></div>
 </body>
 </html>
