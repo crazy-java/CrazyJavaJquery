@@ -7,7 +7,7 @@
 <script type="text/javascript">
 /**
   ps:
-	  	demo中是对jQuery页面排序的应用展示,不走后台代码排序,直接在页面排序
+	  	demo中是对jQuery页面排序的应用展示,不走后台sql排序,直接在页面排序
 	            重点是对行排序,.sort(function(a,b)()) 对每一行中当前需要排序的列进行比较,来实现动态排序
  */
 $(function(){
