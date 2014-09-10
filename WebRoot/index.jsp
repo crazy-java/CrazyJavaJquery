@@ -11,5 +11,6 @@ no zuo no die , why u try
 <div>2.页面排序<a href="jq_sort.jsp">页面排序</a></div>
 <div>3.取奇偶数据<a href="jq_nth-child.jsp">取奇偶数据 :nth-child与:even :odd 区别</a></div>
 <div>4..not与.filter区别<a href="jq_not_filter.jsp">.not与.filter区别</a></div>
+<div>5..map应用<a href="jq_not_filter.jsp">.map应用</a></div>
 </body>
 </html>
