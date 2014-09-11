@@ -12,5 +12,6 @@ no zuo no die , why u try
 <div>3.取奇偶数据<a href="jq_nth-child.jsp">取奇偶数据 :nth-child与:even :odd 区别</a></div>
 <div>4..not与.filter区别<a href="jq_not_filter.jsp">.not与.filter区别</a></div>
 <div>5..map应用<a href="jq_not_filter.jsp">.map应用</a></div>
+<div>6.模拟订单跟踪<a href="jq_offset.jsp">.offset坐标应用</a></div>
 </body>
 </html>
