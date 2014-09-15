@@ -10,8 +10,7 @@
 <script type="text/javascript">
 /**
   ps:
-	  模拟订单配送过程
-	 利用offset()获取元素在页面的坐标
+	  遮盖层显示
  */
 jQuery(function($){
 	
@@ -22,25 +21,41 @@ jQuery(function($){
 	var divHeight = $('#testImg').height()/2+top+'px';
 	$('#descDiv').attr({'style':'position:absolute;top:'+divWidth+';left:'+left+';width:'+width+';height:'+divHeight+';background-color: #88100b;opacity:0.8;display: none;pointer-events:none;'});
 	
-	$('#testImg').on('mouseover mouseout',function(event){
-		if(event.type == 'mouseover'){
+	$('#testImg').on('mouseenter mouseleave',function(event){
+		
+		$('#descDiv').toggle();
+		
+	/* 	if(event.type == 'mouseover'){
 			$('#descDiv').show();
 		}else{
-			$('#descDiv').hide();
-		}
+			if(!divoverHelper()){
+				$('#descDiv').hide();
+			}
+		}  */
 	});
+	
+	/* $('#descDiv').mouseout(function(){
+		$(this).hide();
+	}); */
 	
 });
 
+/* function divoverHelper(){
+	$('#descDiv').mouseover(function(){
+		return false;
+	});
+	return true;
+} */
+
 </script>
-<title>.offset应用</title>
+<title>图片遮盖层</title>
 </head>
 <body>
 
 <div style="z-index: -1">
 <img id="testImg" src="img/1.jpg" style="width: 290px;height: 290px;cursor: pointer;">
 </div>
-<div id="descDiv">
+<div id="descDiv" style="pointer-events:none;">
 <span style="color: white;padding: 15px;">美丽的盐湖美丽的盐湖美丽的盐湖美丽的盐湖美丽的盐湖美丽的盐湖</span>
 </div>
 
