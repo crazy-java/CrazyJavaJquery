@@ -10,7 +10,7 @@
 <script type="text/javascript">
 /**
   ps:
-	  遮盖层显示 ie下失效 
+	  遮盖层显示
  */
 jQuery(function($){
 	
@@ -19,7 +19,7 @@ jQuery(function($){
 	var width = $('#testImg').width()+'px';
 	var divWidth = $('#testImg').width()/2+'px';
 	var divHeight = $('#testImg').height()/2+top+'px';
-	$('#descDiv').attr({'style':'position:absolute;top:'+divWidth+';left:'+left+';width:'+width+';height:'+divHeight+';background-color: #88100b;opacity:0.8;display: none;pointer-events:none;'});
+	$('#descDiv').attr({'style':'position:absolute;top:'+divWidth+';left:'+left+';width:'+width+';height:'+divHeight+';background-color: #88100b;opacity:0.8;display: none;z-index:999'});
 	
 	$('#testImg').on('mouseover mouseout',function(event){
 		$('#descDiv').toggle();
@@ -33,11 +33,11 @@ jQuery(function($){
 </head>
 <body>
 
-<div style="z-index: -1" class="pointer-events:none;">
-<img id="testImg" src="img/1.jpg" style="width: 290px;height: 290px;cursor: pointer;">
-</div>
+<div id="testImg" style="width: 290px;height: 290px;cursor: pointer;overflow:hidden;">
+<img  src="img/1.jpg" style="width: 290px;height: 290px;">
 <div id="descDiv" >
 <span style="color: white;padding: 15px;">美丽的盐湖美丽的盐湖美丽的盐湖美丽的盐湖美丽的盐湖美丽的盐湖</span>
+</div>
 </div>
 
 
