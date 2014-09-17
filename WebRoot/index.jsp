@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>导航</title>
 </head>
 <body>
 no zuo no die , why u try
@@ -15,6 +15,7 @@ no zuo no die , why u try
 <div>6.模拟订单跟踪<a href="jq_offset.jsp">.offset坐标应用</a></div>
 <div>7.图片遮层<a href="jq_offset.jsp">图片遮层</a></div>
 <div>8.元素绑定事件高级应用<a href="jq_offset.jsp">元素绑定事件高级应用</a></div>
-<div>9.元素解除绑定事件应用<a href="jq_offset.jsp">元素解除绑定事件应用</a></div>
+<div>9.元素解除绑定事件应用<a href="jq_undelegate.jsp">元素解除绑定事件应用</a></div>
+<div>10.模拟百度智能提示窗<a href="jq_baidu.jsp">模拟百度智能提示窗</a></div>
 </body>
 </html>
