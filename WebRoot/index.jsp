@@ -18,5 +18,6 @@ no zuo no die , why u try
 <div>9.元素解除绑定事件应用<a href="jq_undelegate.jsp">元素解除绑定事件应用</a></div>
 <div>10.模拟百度智能提示窗<a href="jq_baidu.jsp">模拟百度智能提示窗</a></div>
 <div>11.检测离开页面<a href="jq_beforeunload.jsp">检测离开页面</a></div>
+<div>12.jq动画效果<a href="jq_animate.jsp">jq动画效果</a></div>
 </body>
 </html>
