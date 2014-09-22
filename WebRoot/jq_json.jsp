@@ -13,7 +13,7 @@ $(function(){
 	$.ajax({
 		url : 'jsonServlet.do',
 		type : 'POST',
-		dataType : 'json',
+		dataType : 'json', //解析类型要写json 否则解析出来的数据不正确 
 		success : function(data){
 			var json = data;
 			for(var i = 0 ; i < json.length ; i++){
