@@ -19,5 +19,6 @@ no zuo no die , why u try
 <div>10.模拟百度智能提示窗<a href="jq_baidu.jsp">模拟百度智能提示窗</a></div>
 <div>11.检测离开页面<a href="jq_beforeunload.jsp">检测离开页面</a></div>
 <div>12.jq动画效果<a href="jq_animate.jsp">jq动画效果</a></div>
+<div>13.jq解析json<a href="jq_json.jsp">jq解析json</a></div>
 </body>
 </html>
