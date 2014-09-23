@@ -20,5 +20,6 @@ no zuo no die , why u try
 <div>11.检测离开页面<a href="jq_beforeunload.jsp">检测离开页面</a></div>
 <div>12.jq动画效果<a href="jq_animate.jsp">jq动画效果</a></div>
 <div>13.jq解析json<a href="jq_json.jsp">jq解析json</a></div>
+<div>14.$.inArray判断数组中是否存在指定元素<a href="jq_array.jsp">$.inArray判断数组中是否存在指定元素</a></div>
 </body>
 </html>
