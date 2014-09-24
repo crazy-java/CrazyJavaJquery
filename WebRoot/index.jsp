@@ -22,5 +22,6 @@ no zuo no die , why u try
 <div>13.jq解析json<a href="jq_json.jsp">jq解析json</a></div>
 <div>14.$.inArray判断数组中是否存在指定元素<a href="jq_array.jsp">$.inArray判断数组中是否存在指定元素</a></div>
 <div>15.子窗口改变父窗口的值 子窗口中调用父窗口的函数<a href="jq_parent.jsp">子窗口改变父窗口的值 子窗口中调用父窗口的函数</a></div>
+<div>16.frame、include之间的元素交互<a href="jq_frame.jsp">frame、include之间的元素交互</a></div>
 </body>
 </html>
