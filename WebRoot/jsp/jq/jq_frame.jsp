@@ -1,8 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="<%=basePath %>" />
 <style type="text/css">
 .test2{font-size:30px}
 </style>
@@ -35,12 +40,12 @@ include页面的按钮给文本框赋值<input type="text" id="parentInput2" /><
 <input type="button" value="改变include的背景颜色" id="parentBtn2"/><br/>
 
 
-<iframe src="jq_frame2.jsp" id="frame1" name="frame1" style="border: 1px solid #cccccc"></iframe>
-<iframe src="jq_frame3.jsp" id="frame2" name="frame2" style="border: 1px solid #cccccc"></iframe><br/>
+<iframe src="jsp/jq/jq_frame2.jsp" id="frame1" name="frame1" style="border: 1px solid #cccccc"></iframe>
+<iframe src="jsp/jq/jq_frame3.jsp" id="frame2" name="frame2" style="border: 1px solid #cccccc"></iframe><br/>
 <div style="border: 1px solid #cccccc;width: 610px;">
 <jsp:include page="jq_include.jsp"></jsp:include>
 </div>
-
+<a href="index.jsp">返回首页</a>
 
 
 
