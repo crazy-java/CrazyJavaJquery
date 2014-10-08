@@ -6,7 +6,7 @@
 <title>导航</title>
 </head>
 <body>
-no zuo no die , why u try
+<h2>jQuery</h2>
 <div>1.缓存应用<a href="jsp/jq/jq_cache.jsp">缓存应用</a></div>
 <div>2.页面排序<a href="jsp/jq/jq_sort.jsp">页面排序</a></div>
 <div>3.取奇偶数据<a href="jsp/jq/jq_nth-child.jsp">取奇偶数据 :nth-child与:even :odd 区别</a></div>
@@ -23,5 +23,10 @@ no zuo no die , why u try
 <div>14.$.inArray判断数组中是否存在指定元素<a href="jsp/jq/jq_array.jsp">$.inArray判断数组中是否存在指定元素</a></div>
 <!-- 有问题 暂注掉<div>15.子窗口改变父窗口的值 子窗口中调用父窗口的函数<a href="jsp/jq/jq_parent.jsp">子窗口改变父窗口的值 子窗口中调用父窗口的函数</a></div> -->
 <div>15.frame、include之间的元素交互<a href="jsp/jq/jq_frame.jsp">frame、include之间的元素交互</a></div>
+
+<h2>html5</h2>
+<div>1.contentEditable属性,使页面控件可编辑<a href="jsp/html5/h5_contenteditable.html">contentEditable</a></div>
+
+
 </body>
 </html>
