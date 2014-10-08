@@ -3,23 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <title>contentEditable使用</title>
+<script type="text/javascript" src="../../js/jquery-1.9.1.min.js" charset="utf-8"></script>
 <script type="text/javascript">
-// 加上这个属性后 li元素可以再编辑
+//加上这个属性后 li元素可以再编辑
+$(function(){
+	
+	// 当contenteditable属性写在li上时才能通过blur获取更改后的内容 放在ul上失效
+	$('ul#test>li').blur(function(){
+		alert($(this).html());
+	});
+	
+	$('#ul#testu>li').blur(function(){
+		alert($(this).html());
+	});
+	
+	$('#btn').click(function(){
+		var $lis = $('ul>li');
+		$.each($lis,function(index,value){
+			alert($(this).html());
+		});
+	});
+	
+})
 </script>
 </head>
 
 <body>
 	<h2>可编辑列表</h2>
-	<ul contenteditable="true">
+	<ul contenteditable="true" id="testu">
 		<li>列表元素1</li>
 		<li>列表元素2</li>
 		<li>列表元素3</li>
 	</ul>
-	<ul>
+	<ul id="test">
 		<li contenteditable="true">列表元素4</li>
 		<li>列表元素5</li>
 		<li>列表元素6</li>
 	</ul>
+	
+	<input type="button" value="获取修改后的内容" id="btn"/>
 </body>
 
 </html>
